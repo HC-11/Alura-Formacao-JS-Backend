@@ -1,0 +1,24 @@
+{
+  "name": "nodejs---criando-uma-lib",
+  "version": "1.0.0",
+  "description": "Alura - NodeJS criando uma lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node ./src/cli.js ./arquivos/texto.md",
+    "cli:valida": "node ./src/cli.js ./arquivos/texto.md --valida"
+  },
+  "keywords": [
+    "nodejs",
+    "libs",
+    "chalk",
+    "alura",
+    "javascript"
+  ],
+  "author": "Heitor (HC-11)",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
