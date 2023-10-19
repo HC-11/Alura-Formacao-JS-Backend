@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<script>
+    function br() {
+        document.write("<br>");
+    }
+
+    function mostrar(frase) {
+        document.write(frase);
+        br();
+    }
+   var numPensado = Math.round (Math.random()*10);
+   var chute = parseInt( prompt("Digite o seu chute:"));
+
+   if (chute == numPensado){
+      mostrar("Acertou, miseravi!");
+   } else{
+      mostrar("Erroooou!! O número pensado era: "+numPensado);
+   }
+
+</script>
